@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1302px;
+    height: 2243px;
+}
+header{
+    width: 1302px;
+    height: 70px;
+    background-color: #000;
+    display: flex;
+    gap: 695px;
+}
+.header1>.H1{
+    color: #fff;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.header2>a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 6px;
+    position: relative;
+    right: 15px;
+    top: 23px;  
+}
+.header2>.hs{
+    color: rgb(230, 42, 42);
+}
+/* header dyndy */
+.main1{
+    width: 1302px;
+    height: 500px;
+    background: url(/img/banner-bg.png) no-repeat;
+    background-size: cover;
+}
+.tb{
+    width: 440px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 240px;
+}
+.h11{
+    color: #000;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+.h12{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 900;
+}
+.p1{
+    color: #fff;
+    padding: 20px 0px;
+}
+.btn1{
+    width: 130px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+}
+/* main1 dyndy */
+.main2{
+    width: 1302px;
+    height:500px;
+    display: flex;
+}
+.article1{
+    width: 400px;
+    height: 400px;
+    margin-left: 251px;
+    margin-top: 50px;
+}
+.h21{
+    font-size: 30px;
+    color:rgb(230, 42, 42);
+    padding-bottom: 8px;
+    margin-top: 95px;
+}
+.p21{
+    padding: 8px 0px;
+}
+.btn2{
+    width: 130px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.article2{
+    margin-top: 50px;
+}
+/* main2 dyndy */
+.main3{
+    width: 1302px;
+    height: 986px;
+}
+.gallery{
+    width: 800px;
+    height: 986px;
+    
+    margin: 0 auto;
+}
+.h31{
+    font-size: 30px;
+    color:rgb(230, 42, 42);
+    text-align: center;
+}
+.p31{
+    padding: 20px 0px;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(3, 250px);
+    row-gap: 35px;
+    column-gap: 25px;
+}
+.item{
+    /* width: 250px;
+    height: 250px; */
+}
+.item1{
+    background: url(/img/img-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+.item2{
+    background: url(/img/img-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item3{
+    background: url(/img/img-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item4{
+    background: url(/img/img-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item5{
+    background: url(/img/img-5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item6{
+    background: url(/img/img-6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item7{
+    background: url(/img/img-7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item8{
+    background: url(/img/img-8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item9{
+    background: url(/img/img-9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#icon{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 105px;
+    left: 105px;
+    opacity: 0;
+}
+#icon:hover{
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+.item:hover{
+    transition: all 0.5s ease;
+    opacity: 0.5;
+}
+.btn3{
+    width: 130px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 335px;
+}
+/* main3 dyndy */
+footer{
+    width: 1302px;
+    height: 250px;
+    background-color: #000;
+}
+.about{
+    width: 200px;
+}
+.amuc{
+    display: flex;
+    justify-content:center;
+    padding-top: 61.5px;
+}
+.a{
+    width: 200px;
+    height: 125px;
+    margin-right: 20px;
+}
+.fh{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.fp{
+    color: #fff;
+}
+/* footer dyndy */
